@@ -1,2 +1,7 @@
 ﻿  Board.cpp
-  AA2_Ajedrez_Belmonte_Fajardo.vcxproj -> C:\Users\Victor\Documents\GitHub\AA2_Ajedrez_Belmonte_Fajardo\AA2_Ajedrez_Belmonte_FajardoSOL\x64\Debug\AA2_Ajedrez_Belmonte_Fajardo.exe
+  main.cpp
+C:\Users\polfg\Documents\GitHub\AA2_Ajedrez_Belmonte_Fajardo\AA2_Ajedrez_Belmonte_FajardoSOL\AA2_Ajedrez_Belmonte_Fajardo\main.cpp(17,32): warning C4101: 'userSetPiece': unreferenced local variable
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "void __cdecl initChessBoard(char (* const)[8])" (?initChessBoard@@YAXQEAY07D@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl viewChessBoard(char (* const)[8])" (?viewChessBoard@@YAXQEAY07D@Z) referenced in function main
+C:\Users\polfg\Documents\GitHub\AA2_Ajedrez_Belmonte_Fajardo\AA2_Ajedrez_Belmonte_FajardoSOL\x64\Debug\AA2_Ajedrez_Belmonte_Fajardo.exe : fatal error LNK1120: 2 unresolved externals
