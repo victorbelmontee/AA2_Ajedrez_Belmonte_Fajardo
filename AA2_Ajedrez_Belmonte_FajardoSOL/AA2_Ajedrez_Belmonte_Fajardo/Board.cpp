@@ -1,7 +1,7 @@
 #include "Const.h"
 #include "Utils.h"
 
-void initBoard(char chessBoard[BOARD_SIZE][BOARD_SIZE]) {
+void initChessBoard(char chessBoard[BOARD_SIZE][BOARD_SIZE]) {
     for (int i = 0; i < BOARD_SIZE; i++) {
         for (int j = 0; j < BOARD_SIZE; j++) {
             // Set paws
@@ -44,7 +44,7 @@ void initBoard(char chessBoard[BOARD_SIZE][BOARD_SIZE]) {
     chessBoard[BOARD_SIZE - 1][blackQueenXPosR] = WHITE_QUEEN;
 }
 
-void printBoard(char chessBoard[BOARD_SIZE][BOARD_SIZE]) {
+void viewChessBoard(char chessBoard[BOARD_SIZE][BOARD_SIZE]) {
     std::cout << ' ' << ' ';
     for (int i = 0; i < BOARD_SIZE; i++) {
         std::cout << i + 1 << ' ';
