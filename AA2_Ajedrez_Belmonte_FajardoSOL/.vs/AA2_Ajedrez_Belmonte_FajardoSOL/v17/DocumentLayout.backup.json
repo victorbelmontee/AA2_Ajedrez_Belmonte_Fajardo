@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\",
+  "WorkspaceRootPath": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|solutionrelative:AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|solutionrelative:AA2_Ajedrez_Belmonte_Fajardo\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|solutionrelative:AA2_Ajedrez_Belmonte_Fajardo\\Const.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|solutionrelative:AA2_Ajedrez_Belmonte_Fajardo\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{87E3F7D3-CFA5-4001-9BA5-472BAC6B95B9}|AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_Fajardo.vcxproj|solutionrelative:AA2_Ajedrez_Belmonte_Fajardo\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -36,15 +36,14 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Board.h",
-              "DocumentMoniker": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.h",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.h",
               "RelativeDocumentMoniker": "AA2_Ajedrez_Belmonte_Fajardo\\Board.h",
-              "ToolTip": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.h",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.h",
               "RelativeToolTip": "AA2_Ajedrez_Belmonte_Fajardo\\Board.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-24T09:04:54.719Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -58,37 +57,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Const.h",
-              "DocumentMoniker": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Const.h",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Const.h",
               "RelativeDocumentMoniker": "AA2_Ajedrez_Belmonte_Fajardo\\Const.h",
-              "ToolTip": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Const.h",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Const.h",
               "RelativeToolTip": "AA2_Ajedrez_Belmonte_Fajardo\\Const.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-24T08:43:02.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:43:02.058Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Utils.h",
-              "DocumentMoniker": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Utils.h",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Utils.h",
               "RelativeDocumentMoniker": "AA2_Ajedrez_Belmonte_Fajardo\\Utils.h",
-              "ToolTip": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Utils.h",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Utils.h",
               "RelativeToolTip": "AA2_Ajedrez_Belmonte_Fajardo\\Utils.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-24T09:53:34.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T09:53:34.149Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Board.cpp",
-              "DocumentMoniker": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp",
               "RelativeDocumentMoniker": "AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp",
-              "ToolTip": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp",
               "RelativeToolTip": "AA2_Ajedrez_Belmonte_Fajardo\\Board.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAIYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-24T09:05:05.761Z",
               "EditorCaption": ""
@@ -97,14 +94,13 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\main.cpp",
               "RelativeDocumentMoniker": "AA2_Ajedrez_Belmonte_Fajardo\\main.cpp",
-              "ToolTip": "C:\\Users\\polfg\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\main.cpp",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\AA2_Ajedrez_Belmonte_Fajardo\\AA2_Ajedrez_Belmonte_FajardoSOL\\AA2_Ajedrez_Belmonte_Fajardo\\main.cpp",
               "RelativeToolTip": "AA2_Ajedrez_Belmonte_Fajardo\\main.cpp",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-24T08:27:59.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:27:59.105Z"
             }
           ]
         }
