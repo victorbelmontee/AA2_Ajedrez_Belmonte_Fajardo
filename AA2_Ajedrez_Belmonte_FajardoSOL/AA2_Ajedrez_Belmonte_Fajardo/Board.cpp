@@ -201,6 +201,18 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
     return false;
 }
 
+// Verifica si un rey sigue vivo
+bool isKingAlive(char chessBoard[BOARD_SIZE][BOARD_SIZE], char king) {
+    for (int y = 0; y < BOARD_SIZE; y++) {
+        for (int x = 0; x < BOARD_SIZE; x++) {
+            if (chessBoard[y][x] == king) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 // Permite al usuario seleccionar una pieza válida y moverla
 void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) {
     Position from, to;
@@ -218,7 +230,7 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
         }
         std::cout << "Elige una pieza (X Y): ";
         std::cin >> from.x >> from.y;
-		std::cout << "------------------" << std::endl;
+        std::cout << "------------------" << std::endl;
 
         if (from.x < 1 || from.x > BOARD_SIZE || from.y < 1 || from.y > BOARD_SIZE) {
             std::cout << "Posición fuera del tablero. Intenta de nuevo." << std::endl;
@@ -272,4 +284,18 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
     char piece = chessBoard[from.y][from.x];
     chessBoard[from.y][from.x] = EMPTY;
     chessBoard[to.y][to.x] = piece;
+
+    // Verificar si el rey enemigo ha sido eliminado
+    if (isWhiteTurn) {
+        if (!isKingAlive(chessBoard, BLACK_KING)) {
+            std::cout << "¡Las BLANCAS han ganado! El rey negro ha sido eliminado." << std::endl;
+            exit(0); // Termina el programa
+        }
+    }
+    else {
+        if (!isKingAlive(chessBoard, WHITE_KING)) {
+            std::cout << "¡Las NEGRAS han ganado! El rey blanco ha sido eliminado." << std::endl;
+            exit(0); // Termina el programa
+        }
+    }
 }
