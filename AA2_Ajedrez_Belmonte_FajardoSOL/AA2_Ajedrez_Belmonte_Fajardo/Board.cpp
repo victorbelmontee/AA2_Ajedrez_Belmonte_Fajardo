@@ -34,12 +34,12 @@ void initChessBoard(char chessBoard[BOARD_SIZE][BOARD_SIZE]) {
     // Colocamos todas las piezas negras en la primera fila
     chessBoard[0][rookXPosL] = BLACK_ROOK;     // Torre negra izquierda
     chessBoard[0][rookXPosR] = BLACK_ROOK;     // Torre negra derecha
-    chessBoard[0][knightXPosL] = BLACK_KNIGHT; // Caballo negro izquierdo - los que saltan en L
+    chessBoard[0][knightXPosL] = BLACK_KNIGHT; // Caballo negro izquierdo
     chessBoard[0][knightXPosR] = BLACK_KNIGHT; // Caballo negro derecho
-    chessBoard[0][bishopXPosL] = BLACK_BISHOP; // Alfil negro izquierdo - los que van en diagonal
+    chessBoard[0][bishopXPosL] = BLACK_BISHOP; // Alfil negro izquierdo
     chessBoard[0][bishopXPosR] = BLACK_BISHOP; // Alfil negro derecho
-    chessBoard[0][whiteKingXPosL] = BLACK_KING;   // Rey negro - la pieza más importante
-    chessBoard[0][whiteQueenXPosR] = BLACK_QUEEN; // Reina negra - la más poderosa
+    chessBoard[0][whiteKingXPosL] = BLACK_KING;   // Rey negro
+    chessBoard[0][whiteQueenXPosR] = BLACK_QUEEN; // Reina negra
 
     // Colocamos todas las piezas blancas en la última fila
     chessBoard[BOARD_SIZE - 1][rookXPosL] = WHITE_ROOK;     // Torre blanca izquierda
@@ -112,7 +112,7 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
                 // Comprobamos que no haya piezas en el camino
                 for (int y = from.y + step; y != to.y; y += step) {
                     if (chessBoard[y][from.x] != EMPTY) {
-                        return false; // ¡Hay una pieza bloqueando el camino!
+                        return false; 
                     }
                 }
                 return true; // Movimiento vertical válido
@@ -126,14 +126,14 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
                 // Comprobamos que no haya piezas en el camino
                 for (int x = from.x + step; x != to.x; x += step) {
                     if (chessBoard[from.y][x] != EMPTY) {
-                        return false; // ¡Hay una pieza bloqueando el camino!
+                        return false; 
                     }
                 }
                 return true; // Movimiento horizontal válido
             }
         }
 
-        // Segundo: verificamos movimiento tipo alfil (diagonal)
+        // Segundo: verificamos movimiento del alfil
         if (difx == dify || difx == -dify) {
             int stepX = 1;
             int stepY = 1;
@@ -148,7 +148,7 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
             int y = from.y + stepY;
             while (x != to.x && y != to.y) {
                 if (chessBoard[y][x] != EMPTY) {
-                    return false; // ¡Hay una pieza bloqueando el camino diagonal!
+                    return false; 
                 }
                 x += stepX;
                 y += stepY;
@@ -178,7 +178,7 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
                 // La reina se mueve como una torre O como un alfil
                 // Comprobar movimiento de torre (horizontal o vertical)
                 if (difx == 0 || dify == 0) {
-                    // Código de validación de torre
+                    // Código comprovación torre
                     if (difx == 0) {
                         int step = 1;
                         if (dify < 0) {
@@ -205,7 +205,7 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
                     }
                 }
 
-                // Comprobar movimiento de alfil (diagonal)
+                // Comprobar movimiento de alfil
                 if (difx == dify || difx == -dify) {
                     int stepX = 1;
                     int stepY = 1;
@@ -228,7 +228,7 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
                 }
                 return false;
             }
-            return false; // No podemos capturar nuestras propias piezas
+            return false; // No podemos coger nuestras propias piezas
         }
     }
 
@@ -366,8 +366,8 @@ bool isKingAlive(char chessBoard[BOARD_SIZE][BOARD_SIZE], char king) {
 
 void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) {
     Position from, to;  // Coordenadas de origen y destino
-    bool isValidSelection = false;     // Si se seleccionó una pieza válida
-    bool isValidDestination = false;   // Si seleccionó un destino válido
+    bool isValidSelection = false;     // Si se selecciona una pieza válida
+    bool isValidDestination = false;   // Si se selecciona un destino válido
 
     // Bucle para seleccionar una pieza válida
     do {
@@ -427,7 +427,7 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
             continue; // Volvemos a pedir input
         }
 
-        // Convertimos a índices del array
+        // Convertimos a índices válidos del array
         to.x--;
         to.y = BOARD_SIZE - to.y;
 

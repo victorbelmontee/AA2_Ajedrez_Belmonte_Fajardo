@@ -25,7 +25,7 @@ int main() {
         // Cambiar de turno
         isWhiteTurn = !isWhiteTurn;
 
-        // Limpiar la pantalla (opcional, solo en Windows)
+        // Limpiar la pantalla
         system("cls");
 
     } while (!gameOver);

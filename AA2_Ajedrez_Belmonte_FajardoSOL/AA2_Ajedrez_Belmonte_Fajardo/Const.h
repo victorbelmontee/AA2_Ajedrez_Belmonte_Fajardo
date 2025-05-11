@@ -3,7 +3,6 @@
 /****** INCLUDES ******/
 #include <iostream>
 #include <Windows.h>
-/****** WINDOWS.h ******/
 
 /****** BOARD DEFINES ******/
 #define EMPTY '*'
