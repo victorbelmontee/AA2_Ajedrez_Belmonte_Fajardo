@@ -85,7 +85,65 @@ bool hasAnyValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, boo
 bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Position to, bool isWhiteTurn) {
     char piece = chessBoard[from.y][from.x];
     char target = chessBoard[to.y][to.x];
+   
 
+    int difx = to.x - from.x;
+    int dify = to.y - from.y;
+    if (piece == WHITE_QUEEN || piece == BLACK_QUEEN) {
+        // La reina se mueve como una torre O como un alfil
+        // Comprobar movimiento de torre (horizontal o vertical)
+        if (difx == 0 || dify == 0) {
+            // Código para validar el movimiento como torre
+            if (difx == 0) {
+                int step = 1;
+                if (dify < 0) {
+                    step = -1;
+                }
+                for (int y = from.y + step; y != to.y; y += step) {
+                    if (chessBoard[y][from.x] != EMPTY) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+            if (dify == 0) {
+                int step = 1;
+                if (difx < 0) {
+                    step = -1;
+                }
+                for (int x = from.x + step; x != to.x; x += step) {
+                    if (chessBoard[from.y][x] != EMPTY) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        }
+        
+        // Comprobar movimiento de alfil (diagonal)
+        if (difx == dify || difx == -dify) {
+            int stepX = 1;
+            int stepY = 1;
+            if (difx < 0) {
+                stepX = -1;
+            }
+            if (dify < 0) {
+                stepY = -1;
+            }
+            int x = from.x + stepX;
+            int y = from.y + stepY;
+            while (x != to.x && y != to.y) {
+                if (chessBoard[y][x] != EMPTY) {
+                    return false;
+                }
+                x += stepX;
+                y += stepY;
+            }
+            return true;
+        }
+        
+        return false;
+    }
     if (isWhiteTurn) {
         if (target >= 'A' && target <= 'Z') {
             return false;
@@ -93,12 +151,64 @@ bool isValidMove(char chessBoard[BOARD_SIZE][BOARD_SIZE], Position from, Positio
     }
     else {
         if (target >= 'a' && target <= 'z') {
+            if (piece == WHITE_QUEEN || piece == BLACK_QUEEN) {
+                // La reina se mueve como una torre O como un alfil
+                // Comprobar movimiento de torre (horizontal o vertical)
+                if (difx == 0 || dify == 0) {
+                    // Código de validación de torre
+                    if (difx == 0) {
+                        int step = 1;
+                        if (dify < 0) {
+                            step = -1;
+                        }
+                        for (int y = from.y + step; y != to.y; y += step) {
+                            if (chessBoard[y][from.x] != EMPTY) {
+                                return false;
+                            }
+                        }
+                        return true;
+                    }
+                    if (dify == 0) {
+                        int step = 1;
+                        if (difx < 0) {
+                            step = -1;
+                        }
+                        for (int x = from.x + step; x != to.x; x += step) {
+                            if (chessBoard[from.y][x] != EMPTY) {
+                                return false;
+                            }
+                        }
+                        return true;
+                    }
+                }
+                
+                // Comprobar movimiento de alfil (diagonal)
+                if (difx == dify || difx == -dify) {
+                    int stepX = 1;
+                    int stepY = 1;
+                    if (difx < 0) {
+                        stepX = -1;
+                    }
+                    if (dify < 0) {
+                        stepY = -1;
+                    }
+                    int x = from.x + stepX;
+                    int y = from.y + stepY;
+                    while (x != to.x && y != to.y) {
+                        if (chessBoard[y][x] != EMPTY) {
+                            return false;
+                        }
+                        x += stepX;
+                        y += stepY;
+                    }
+                    return true;
+                }
+                return false;
+            }
             return false;
         }
     }
 
-    int difx = to.x - from.x;
-    int dify = to.y - from.y;
 
     if (piece == WHITE_PAWN || piece == BLACK_PAWN) {
         int direction = 1;
@@ -233,7 +343,7 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
         std::cout << "------------------" << std::endl;
 
         if (from.x < 1 || from.x > BOARD_SIZE || from.y < 1 || from.y > BOARD_SIZE) {
-            std::cout << "Posición fuera del tablero. Intenta de nuevo." << std::endl;
+            std::cout << "Posicion fuera del tablero. Intenta de nuevo." << std::endl;
             continue;
         }
 
@@ -243,7 +353,7 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
         char selectedPiece = chessBoard[from.y][from.x];
 
         if (selectedPiece == EMPTY) {
-            std::cout << "No hay ninguna pieza en esa posición." << std::endl;
+            std::cout << "No hay ninguna pieza en esa posicion." << std::endl;
         }
         else if (isWhiteTurn && (selectedPiece < 'A' || selectedPiece > 'Z')) {
             std::cout << "Esa pieza no te pertenece." << std::endl;
@@ -252,7 +362,7 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
             std::cout << "Esa pieza no te pertenece." << std::endl;
         }
         else if (!hasAnyValidMove(chessBoard, from, isWhiteTurn)) {
-            std::cout << "Esa pieza no tiene movimientos válidos. Elige otra." << std::endl;
+            std::cout << "Esa pieza no tiene movimientos validos. Elige otra." << std::endl;
         }
         else {
             isValidSelection = true;
@@ -261,11 +371,11 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
 
     // Seleccionar destino
     do {
-        std::cout << "Elige la posición de destino (X Y): ";
+        std::cout << "Elige la posicion de destino (X Y): ";
         std::cin >> to.x >> to.y;
 
         if (to.x < 1 || to.x > BOARD_SIZE || to.y < 1 || to.y > BOARD_SIZE) {
-            std::cout << "Posición fuera del tablero. Intenta de nuevo." << std::endl;
+            std::cout << "Posicion fuera del tablero. Intenta de nuevo." << std::endl;
             continue;
         }
 
@@ -276,7 +386,7 @@ void movePieceByUser(char chessBoard[BOARD_SIZE][BOARD_SIZE], bool isWhiteTurn) 
             isValidDestination = true;
         }
         else {
-            std::cout << "Movimiento no válido. Intenta de nuevo." << std::endl;
+            std::cout << "Movimiento no valido. Intenta de nuevo." << std::endl;
         }
     } while (!isValidDestination);
 
